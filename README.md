@@ -67,7 +67,7 @@ brew services stop mongodb-community@6.0
 
 Si quieres contribuir al proyecto, como no tienes acceso de escritura a mi repositorio, puedes usar el flujo de trabajo **"fork and pull request"** ("bifurcación y solicitud de incorporación de cambios").
 
-Tienes [aquí]()https://docs.github.com/es/get-started/quickstart/contributing-to-projects el detalle sobre cómo se hace ([inlgés](https://docs.github.com/en/get-started/quickstart/contributing-to-projects)), pero en resumen: 
+Tienes [aquí](https://docs.github.com/es/get-started/quickstart/contributing-to-projects) el detalle sobre cómo se hace ([inglés](https://docs.github.com/en/get-started/quickstart/contributing-to-projects)), pero en resumen: 
 
 1. Haz un Fork de mi repositorio desde tu cuenta de GitHub
 2. Clónate tu propio Fork en tu ordenador.
