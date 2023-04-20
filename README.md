@@ -1,6 +1,6 @@
 ## Proyecto Tienda
 
-Ejercicio hecho en `JavaScript` para ejecutarse sobre NodeJS. Permite realizar acciones CRUD (Create, Read, Update, Delete) sobre una base de datos MongoDB. Está diseñado para trabajar en local en tu propio ordenador de Desarrollo. Necesitarás tener instalado un editor (recomendado `VSCode`), el entorno NodeJS (`npm`) y un motor de base de datos MongoDB (`mongod`). 
+Ejercicio en `JavaScript` para ejecutar sobre NodeJS. Permite realizar acciones CRUD (Create, Read, Update, Delete) sobre una base de datos MongoDB. Diseñado para trabajar en local en tu propio ordenador de Desarrollo. Necesita un editor (recomendado `VSCode`), el entorno NodeJS (`npm`) y un motor de base de datos MongoDB (`mongod`). 
 
 Aquí tienes un ejemplo de cómo instalarlos en un Mac (apunte [Mac para desarrollo](https://www.luispa.com/desarrollo/2023/04/15/mac-desarrollo.html)).
 
@@ -11,34 +11,33 @@ Aquí tienes un ejemplo de cómo instalarlos en un Mac (apunte [Mac para desarro
 * Clona el repositorio 
 
 ```shell
-➜  git clone https://github.com/LuisJal/ProyectoTienda.git
+git clone https://github.com/LuisJal/ProyectoTienda.git
 :
-➜  cd ProyectoTienda
+cd ProyectoTienda
 ```
 
 * Instalar dependencias (indicadas en `packages.json`)
 
 ```shell
-➜  ProyectoTienda git:(master) ✗ npm install
+npm install
 ```
 
-* Arrancar `mongod` (en otro Terminal)
+* Arrancar `mongod` (desde otro Terminal)
 
 ```shell
-➜  ~ brew services start mongodb-community@6.0
-==> Successfully started `mongodb-community` (label: homebrew.mxcl.mongodb-commu
+brew services start mongodb-community@6.0
 ```
 
-* Comprobar el log (en otro Terminal)
+* Comprobar el log (desde otro Terminal)
 
 ```shell
-➜  ~ tail -f /opt/homebrew/var/log/mongodb/mongo.log
+tail -f /opt/homebrew/var/log/mongodb/mongo.log
 ```
 
-* Arrancar el App `app.js`
+* Lanza la aplicación (`app.js`)
 
 ```shell
-➜  ProyectoTienda git:(master) ✗ node app.js
+node app.js
 Servidor iniciado en http://localhost:3000
 ```
 
@@ -51,7 +50,7 @@ Servidor iniciado en http://localhost:3000
 * Terminar el App (Ctrl-C)
 
 ```shell
-➜  ProyectoTienda git:(master) ✗ node app.js
+ProyectoTienda git:(master) ✗ node app.js
 :
 CTRL-C
 ```
@@ -59,7 +58,7 @@ CTRL-C
 * Terminar MongoDB
 
 ```shell
-➜  ~ brew services stop mongodb-community@6.0
+brew services stop mongodb-community@6.0
 ```
 
 <br/>
@@ -73,11 +72,13 @@ Tienes [aquí]()https://docs.github.com/es/get-started/quickstart/contributing-t
 1. Haz un Fork de mi repositorio desde tu cuenta de GitHub
 2. Clónate tu propio Fork en tu ordenador.
 3. Cuando vayas a modificar primero crea un Issue en mi repositorio para darle seguimiento
-4. Después crea una Rama en el tuyo (fork) relacionada con el Issue, trabaja en tus modificaciones. 
+4. Después crea una Rama en el tuyo (fork) relacionada con el Issue, trabaja en tus modificaciones. Un ejemplo:
 ```shell
 git branch feature/issue-1/crear-readme
 git checkout feature/issue-1/crear-readme
 ```
 5. Haz **commit / push** en tu Fork
 6. Por último Solicítame el cambio (**pull request**) referenciando el Issue.
+
+
 
