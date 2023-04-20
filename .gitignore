@@ -1,0 +1,13 @@
+# Generados por el S.O.
+.DS_Store*
+._.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+*~
+\#*\#
+*.autosave
+
+# JavaScript / Node
+node_modules
+package-lock.json
